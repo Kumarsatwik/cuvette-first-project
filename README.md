@@ -1,4 +1,4 @@
-# Landing Page in HTML/CSS
+# Landing Page in HTML/CSS (Micro Project)
 
 First Page 
 -
