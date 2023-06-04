@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{
+    --background-color:#FFCD9E;
+    --footer-color:#282828;
+    --heading-size:36px;
+    --subheading-size:20px;
+    --font-family:'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding:4rem;
+    background-color: var(--background-color);
+}
+.heading{
+    width:600px;
+    max-height:max-content;
+}
+.heading__title{
+    font-size: var(--heading-size);
+    font-weight: 700;
+    line-height: 54px;
+}
+.heading__subtitle{
+    font-size: var(--subheading-size);
+    font-weight: 500;
+    font-style: normal;
+    width:80%;
+    color:#484848;
+
+}
+.heading p:nth-child(3){
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+}
+.heading__email{
+    display: flex;
+    gap: 0 1rem;
+}
+
+.registerButton{
+    font-family: var(--font-family);
+    width: 216px;
+    background: #282828;
+    border-radius: 8px;
+    color:white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    border:1px solid var(--footer-color);
+}
+.heading p:last-child{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Footer */
+
+footer{
+    padding:3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--footer-color);
+    color:white;
+    font-weight: 400;
+}
+.first-section{
+    text-align: start;
+}
+.second-section{
+    text-align:end ;
+}
