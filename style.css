@@ -60,11 +60,14 @@ main{
     width: 216px;
     background: #282828;
     border-radius: 8px;
-    color:white;
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     border:1px solid var(--footer-color);
+}
+.registerButton a{
+    text-decoration: none;
+    color:white;
 }
 .heading p:last-child{
     color:#FFFFFF;
